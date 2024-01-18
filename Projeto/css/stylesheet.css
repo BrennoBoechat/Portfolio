@@ -32,7 +32,8 @@ html {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
-    background-color: #ABC4F2;
+    color: #fff;
+    background-color: #426AC6;
 }
 
 h2.tittle{
@@ -132,7 +133,7 @@ main nav ul li{
     position: absolute;
     height: 55px;
     width: 180px;
-    background-color: #ABC4F2;
+    background-color: #426AC6;
     border-radius: 55px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     cursor: pointer;
@@ -153,7 +154,7 @@ main nav ul li{
 
 .content i,
 .content .button-text{
-    color: black;
+    color: #fff;
     font-size: 25px;
     font-weight: 600;
     margin: 5px;
@@ -229,13 +230,21 @@ form{
 
 form input, form textarea{
     width: 100%;
-    background-color: #ABC4F2;
+    background-color: #426AC6;
     border: 0;
     outline: 0;
     padding: 20px 15px;
     border-radius: 15px;
-    color: #061228;
+    color: #fff;
     font-size: 18px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+textarea::placeholder {
+    color: #fff;
 }
 
 form textarea{
@@ -317,7 +326,7 @@ footer nav ul li{
 
     .technologies ul{
         display: flex;
-        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não há espaço suficiente */
+        flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
         padding: 10px;
