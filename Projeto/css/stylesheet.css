@@ -166,6 +166,7 @@ section.projects{
 }
 
 section.projects .flex{
+    display: flex;
     justify-content: space-around;
     margin-top: 150px;
 }
@@ -174,7 +175,7 @@ section.projects .flex{
     width: 360px;
     height: 460px;
     background-size: cover;
-    background-position: 100% 0%;
+    background-position: center;
     cursor: pointer;
     border-radius: 40px;
     position: relative;
