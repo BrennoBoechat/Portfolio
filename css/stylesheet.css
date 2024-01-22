@@ -108,6 +108,8 @@ section.profile.flex{
     position: relative;
     animation: float 2s ease-in-out infinite alternate;
     gap: 50px;
+    max-height: 450px; 
+    max-width: 450px;
 }
 
 @keyframes float{
