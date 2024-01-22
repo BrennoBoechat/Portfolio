@@ -95,7 +95,6 @@ section.profile.flex{
 .profile h1{
     color: #180202;
     font-size: 66px;
-    line-height: 66px;
 }
 
 .profile p{
@@ -286,7 +285,7 @@ footer nav ul li{
     cursor: pointer;
 }
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1391px){
 
     .flex{
         flex-direction: column;
@@ -301,6 +300,8 @@ footer nav ul li{
     }
 
     section.profile .flex{
+        align-items: center;
+        text-align: center;
         gap: 60px;
     }
 
@@ -309,7 +310,7 @@ footer nav ul li{
     }   
 
     .profile h1{
-        font-size: 23px;
+        font-size: 24px;
     }
 
     section.profile{
